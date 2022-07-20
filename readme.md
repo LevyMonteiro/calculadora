@@ -1,1 +1,0 @@
-esse é o projeto de uma calculadora, feito para praticar e a dar continuidade ao apredizado, utilizando html, css e js
