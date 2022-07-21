@@ -6,45 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./index.js" defer></script>
 </head>
 <body>
     <div id="container">   
         <div id="calculadora">
-            <h1>Calculadora</h1>
             <table>
-                <p id="resultado">resultado</p>
+                <h1>Calculadora</h1>
+                <p id="resultado"></p>
                 <tr>
-                    <td><button rowspan="2" class="button" onclick="">C</button></td>
-                    <td><button class="button" onclick="">&lt;</button></td>
-                    <td><button class="button" onclick="">/</button></td>
+                    <td colspan="2"><button id="buttonc" style="width: 110px;" class="button" onclick="">C</button></td>
+                    <td><button id="buttondel" class="button" onclick="">&lt;</button></td>
+                    <td><button  style="background-color: rgb(27, 86, 88);" class="button" onclick="">/</button></td>
                 </tr>
                 
                 <tr>
                     <td><button class="button" onclick="">7</button></td>
                     <td><button class="button" onclick="">8</button></td>
                     <td><button class="button" onclick="">9</button></td>
-                    <td><button class="button" onclick="">X</button></td>
+                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="">X</button></td>
                 </tr>
                 <tr>
                     <td><button class="button" onclick="">4</button></td>
                     <td><button class="button" onclick="">5</button></td>
                     <td><button class="button" onclick="">6</button></td>
-                    <td><button class="button" onclick="">-</button></td>
+                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="">-</button></td>
                 </tr>
                 <tr>
                     <td><button class="button" onclick="">1</button></td>
                     <td><button class="button" onclick="">2</button></td>
                     <td><button class="button" onclick="">3</button></td>
-                    <td><button class="button" onclick="">+</button></td>
+                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="">+</button></td>
                 </tr>
                 <tr>
                     <td><button class="button" onclick="">0</button></td>
                     <td><button class="button" onclick="">.</button></td>
-                    <td><button colspas="2" class="button" onclick="">=</button></td>
+                    <td colspan="2"><button style="width: 110px; background-color: rgb(27, 86, 88);" class="button" onclick="">=</button></td>
                 </tr>
             </table> 
             
-            <tfoot>By: Levy Monteiro</tfoot>
         </div>
     </div>
     </body>
