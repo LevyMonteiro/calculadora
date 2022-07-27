@@ -15,33 +15,33 @@
                 <h1>Calculadora</h1>
                 <p id="resultado"></p>
                 <tr>
-                    <td colspan="2"><button id="buttonc" style="width: 110px;" class="button" onclick="">C</button></td>
-                    <td><button id="buttondel" class="button" onclick="">&lt;</button></td>
-                    <td><button  style="background-color: rgb(27, 86, 88);" class="button" onclick="">/</button></td>
+                    <td colspan="2"><button id="buttonc" style="width: 110px;" class="button" onclick="clean()">C</button></td>
+                    <td><button id="buttondel" class="button" onclick="back()">&lt;</button></td>
+                    <td><button  style="background-color: rgb(27, 86, 88);" class="button" onclick="insert('/')">/</button></td>
                 </tr>
                 
                 <tr>
-                    <td><button class="button" onclick="">7</button></td>
-                    <td><button class="button" onclick="">8</button></td>
-                    <td><button class="button" onclick="">9</button></td>
-                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="">X</button></td>
+                    <td><button class="button" onclick="insert('7')">7</button></td>
+                    <td><button class="button" onclick="insert('8')">8</button></td>
+                    <td><button class="button" onclick="insert('9')">9</button></td>
+                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="insert('*')">X</button></td>
                 </tr>
                 <tr>
-                    <td><button class="button" onclick="">4</button></td>
-                    <td><button class="button" onclick="">5</button></td>
-                    <td><button class="button" onclick="">6</button></td>
-                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="">-</button></td>
+                    <td><button class="button" onclick="insert('4')">4</button></td>
+                    <td><button class="button" onclick="insert('5')">5</button></td>
+                    <td><button class="button" onclick="insert('6')">6</button></td>
+                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="insert('-')">-</button></td>
                 </tr>
                 <tr>
-                    <td><button class="button" onclick="">1</button></td>
-                    <td><button class="button" onclick="">2</button></td>
-                    <td><button class="button" onclick="">3</button></td>
-                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="">+</button></td>
+                    <td><button class="button" onclick="insert('1')">1</button></td>
+                    <td><button class="button" onclick="insert('2')">2</button></td>
+                    <td><button class="button" onclick="insert('3')">3</button></td>
+                    <td><button style="background-color: rgb(27, 86, 88);" class="button" onclick="insert('+')">+</button></td>
                 </tr>
                 <tr>
-                    <td><button class="button" onclick="">0</button></td>
-                    <td><button class="button" onclick="">.</button></td>
-                    <td colspan="2"><button style="width: 110px; background-color: rgb(27, 86, 88);" class="button" onclick="">=</button></td>
+                    <td><button class="button" onclick="insert('0')">0</button></td>
+                    <td><button class="button" onclick="insert('.')">.</button></td>
+                    <td colspan="2"><button style="width: 110px; background-color: rgb(27, 86, 88);" class="button" onclick="calcular()">=</button></td>
                 </tr>
             </table> 
             
