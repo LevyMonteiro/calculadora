@@ -16,14 +16,14 @@
     transform: translate(-50%, -50%);
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 13px;
 }
 
 .button {
     padding: 0;
     height: 50px;
-    width: 50px;
+    width: 60px;
     font-size: 25px;
     margin: 3px;
     background-color: rgb(31, 31, 31);
@@ -40,11 +40,11 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     border: 0;
-    width: 230px;
+    width: 270px;
     height: 50px;
     font-size: 25px;
     text-align: right;
-    background-color: black;
+    background-color:black;
     margin: 3px;
     margin-left: 6px;
 }
@@ -53,7 +53,25 @@ h1  {
     text-align: center;
 }
 
-#buttonc, #buttondel {
-    background-color:rgba(255, 4, 4, 0.5) ;
+#buttonAC {
+    background-color:rgb(165, 0, 0);   
+}
 
+#buttonc:hover {
+    background-color:rgb(121, 3, 3);
+}
+
+.buttonEspecial {
+    height: 50px;
+    width: 60px;
+    font-size: 25px;
+    margin: 3px;
+    background-color: rgb(11, 87, 90);
+    border: none;
+    color: white;
+}
+
+.buttonEspecial:hover {
+    cursor: pointer;
+    background-color: rgb(9, 55, 56);
 }

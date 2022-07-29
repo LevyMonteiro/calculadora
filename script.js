@@ -1,10 +1,20 @@
+const resultado = document.querySelector("#resultado");
+const buttonAC = document.querySelector("#buttonAC");
+
+function AC() {
+    if(resultado.textContent) {
+       buttonAC.innerHTML = "C";
+    } else {
+        buttonAC.innerHTML = "AC";
+    }
+}
+
 function insert(valor) {
-var numero = document.getElementById('resultado').innerHTML;
-document.getElementById('resultado').innerHTML = numero + valor;
+resultado.innerHTML += valor;
 }
 
 function clean() {
-    document.getElementById('resultado').innerHTML = "";
+    resultado.innerHTML = "";
 }
 
 function back() {
